@@ -1,5 +1,5 @@
 # The purpose of these two functions, makeCacheMatrix & cacheSolve is to cache
-# the inverse of a matrix
+# and return the inverse of a matrix
 
 
 # The makeCacheMatrix function creates an R object that stores a matrix & its inverse
@@ -36,7 +36,6 @@ cacheSolve <- function(x, ...) {
   m <- solve(data, ...)
   x$setinverse(m)
   m
-  
 }
 
 
